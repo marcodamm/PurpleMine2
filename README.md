@@ -1,12 +1,8 @@
-# PurpleMine 2
+# Wintermine based on the fabulous PurpleMine 2
 
 A free Redmine theme for modern browsers.
 
-![The MIT License](https://img.shields.io/badge/license-MIT-584492.svg) [![Build Status](https://travis-ci.org/mrliptontea/PurpleMine2.svg?branch=master)](https://travis-ci.org/mrliptontea/PurpleMine2) [![Issues](https://img.shields.io/github/issues/mrliptontea/PurpleMine2.svg)](https://github.com/mrliptontea/PurpleMine2/issues) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-
 ---
-
-![Screenshot](https://github.com/mrliptontea/PurpleMine2/raw/master/screenshots/issues-list.png)
 
 Compatible with Redmine 2.6+ and browsers: IE10+/Edge, latest Firefox and Google Chrome (others were not tested).
 
@@ -59,6 +55,11 @@ The path `src/sass/_custom-variables.scss` is added to `.gitignore` so it should
 If you need to customize styles for [Redmine Backlogs][redmine_backlogs] remember to include your `_custom-variables.scss` in `src/sass/plugins/redmine_backlogs/_common.scss`.
 
 ## Changelog
+
+Wintermine Changes
+
+* Switched primary brand color from purple to ice blue
+* Fixed bug which prevented tooltips from being displayes correctly in Gantt chart
 
 Latest (master):
 
