@@ -160,7 +160,6 @@
   @if $sidebar-position == "left" {
     tr > td:last-child & {
       .tip {
-        right: 2px;
         left: auto;
       }
     }
