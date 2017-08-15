@@ -333,14 +333,14 @@ $legend-border-color:           #e5e5e5 !default;
 //== Top
 //
 
-$top-menu-bg:                   darken($brand-primary, 15%) !default;
+$top-menu-bg:                   #0088cc !default;
 $top-menu-text:                 $brand-accent !default;
 $top-menu-link:                 $brand-accent !default;
 $top-menu-link-hover:           $brand-text !default;
 
-$header-bg:                     $brand-primary !default;
-$header-text:                   $brand-text !default;
-$header-link:                   $brand-text !default;
+$header-bg:                     #fafafa !default;
+$header-text:                   #444 !default;
+$header-link:                   #444 !default;
 $header-root:                   $brand-accent !default;
 $header-padding-vertical:       10px !default;
 $header-padding-horizontal:     $padding-side !default;
