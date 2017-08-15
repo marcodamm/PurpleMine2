@@ -500,6 +500,11 @@ ul.projects {
   }
 }
 
+// Hide subproject description
+.projects.root .projects .child .description {
+    display: none;
+}
+
 #custom_field_tracker_ids {
   label {
     margin-right: 10px;
