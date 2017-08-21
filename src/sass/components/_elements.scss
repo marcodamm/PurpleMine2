@@ -295,6 +295,11 @@ p.subtitle {
     @include nice-shadow(4);
     background: $body-bg;
   }
+
+  // Hide closed issues created by me on 'my page'
+  tr.issue.closed.created-by-me {
+    display: none;
+  }
 }
 
 .handle {
