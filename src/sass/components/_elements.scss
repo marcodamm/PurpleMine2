@@ -297,7 +297,7 @@ p.subtitle {
   }
 
   // Hide closed issues created by me on 'my page'
-  tr.issue.closed.created-by-me {
+  tr.issue.closed {
     display: none;
   }
 }
